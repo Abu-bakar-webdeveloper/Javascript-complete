@@ -1,0 +1,12 @@
+preemtive Data Types
+string = A JavaScript string stores a series of characters like "John Doe". ... String indexes are zero-based: The first character is in position 0, the second in 1, and so on
+         let color = "Yellow";
+numbers = hold any numbers
+          let length = 16;
+boolean = represent true or false
+undefined = declare the variable but variable does not have any value assign
+null = empty
+Variable
+var
+let
+const
