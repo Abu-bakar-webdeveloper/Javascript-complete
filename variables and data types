@@ -6,7 +6,12 @@ numbers = hold any numbers
 boolean = represent true or false
 undefined = declare the variable but variable does not have any value assign
 null = empty
-Variable
-var
-let
-const
+JavaScript BigInt = JavaScript BigInt is a new datatype (2020) that can be used to store integer values that are too big to be represented by a normal JavaScript Number.
+
+Example
+let x = BigInt("123456789012345678901234567890");
+
+Variable are keywords used to declare value
+var x = 4;
+let x = 5;
+const x = 6;
