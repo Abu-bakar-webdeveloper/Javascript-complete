@@ -1,0 +1,29 @@
+JavaScript functions are defined with the function keyword.
+  function functionName(parameters) {
+  // code to be executed
+  }
+  javascript funtion to reverse a number
+	
+	function reverse_a_number(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+console.log(Number(reverse_a_number(32243)));
+
+JavaScript function to check if your string is palindrome or not
+
+function palindrome_check(str){
+    var re = /[\W_]/g;
+    var lowregstr = str.toLowerCase().replace(re, "");
+    var reversestr = lowregstr.split("").reverse().join("");
+    if(lowregstr == reversestr){
+        console.log("your string is palindrome");
+    }
+    else{
+        console.log("it is not palindrome");
+    }
+};
+
+palindrome_check("A man, a plan, a canal. Panama");
+
